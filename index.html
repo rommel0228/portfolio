@@ -17,7 +17,7 @@
 			<!-- NavBar Start -->
 			<div id="landing">
 			<nav class="navbar navbar-expand-lg navbar-dark">
-	            <a href="#" class="navbar-brand"><h3>Rommel Esteves</h3></a>
+	            <a href="#" class="navbar-brand"><h3><img id="logo" class="img-fluid" src="https://whitemarketbrands.com/wp-content/uploads/2019/12/GIF-HEADER-WHITE-MARKET-BRANDS-HEXAGON.gif"> rmmlstvs</h3></a>
 	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="$navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	                <span class="navbar-toggler-icon"></span>
 	            </button>
@@ -35,50 +35,86 @@
 	                    </li>
 	                </ul>
 	            </div>
-	       </nav>
+	        </nav>
+	   		</div>
 			<!-- NavBar End-->
 
 			<!-- About me Start -->
-			<div id=aboutme>
-				<div class="d-flex text-center justify-content-center">
-					<div">
-						<h1 class="mt-5">Hi, I am Rommel Esteves.</h1> 
-						<h2>I am web developer.</h2>
+			<div id="aboutme" class="container-fluid my-5 py-5 vh-90">
+				<div class="row">
+					<div class="col text-center">
+						<img width="250" height="250" src="./images/profile.jpg" alt="" class=" rounded-circle bg-white">
 					</div>
-					<div class="d-flex justify-content-center my-5">
-						<img width="250" src="./images/profile.jpg" alt="" class=" rounded-circle bg-white">
+					<div class="col d-flex flex-column mr-5 pr-5">
+						<h1 class="mt-3 text-light">Hi, I am Rommel Esteves.</h1>
+						<h5 class="text-justify text-light">I am fullstack web developer. I graduated Bachelor of Science in Electronics and Communications Engineering and choose to pursue a career in web development</h5>
+						<div>
+							<a href="#contact"><img class="mx-2" id="link_logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/512px-Circle-icons-mail.svg.png"></a>
+							<a href="https://www.linkedin.com/in/rommel-esteves-8854b8148/" target="_blank"> <img class="mx-2" id="link_logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+							<a href="https://www.w3schools.com/" target="_blank"><img class="mx-2" id="link_logo" src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-website-logo-png-transparent-background-background-15.png"></a>
+						</div>
 					</div>
 				</div>
 			</div>
 			<!-- About me End-->
-			</div>
+		
 
 			<!-- Project Start -->
-			<div id="projects" class="mt-5 pt-5">
-				<h3 class="text-center my-5">Here are some of the projects I have done in the past related to programming.</h3>
-				<div class="container-fluid d-flex flex-row justify-content-center col-12">
-						<div class="d-flex flex-column bg-dark text-white text-center col-4">
-							<img src="https://divinity.uchicago.edu/sites/default/files/imce/Sightings_images/Xiaomi-VR.jpg" class="img-fluid d-flex justify-content-center my-5>
-							<h3 class="text-center">MNLTour</h3>
-							<p class="container-fluid">MNLTour is a virtual tour system for selected tourist spots situated within the city of Manila. It utilizes 360-degree images, 2D images, voice recordings, and virtual reality technology to offer an immersive user experience of the virtual environment. The virtual tour system was developed using the Unity3D software and was then integrated into web and mobile applications accessible through web browsers and android smartphones, respectively.</p>
-						</div>	
-
-						<div class="d-flex flex-column bg-dark text-white text-center col-4">
-							<img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2019/02/21/identify-birds-1.gif" class="img-fluid d-flex justify-content-center my-5">
-							<h3 class="text-center">Endemic Bird Image Classifier</h3>
-							<p class="container-fluid">This project uses deep learning to classify an image of endemic birds based on their extinction threat level. The data used in this image classifier is based on data sets gather from endemic birds that is located in the Philippines </p>
-						</div>	
+			<div id="projects">
+				<h3 class="text-center text-light mt-2">Here are some of the projects I have done in the past related to programming.</h3>
+				<div class="container-fluid row justify-content-center d-flex flex-md-row flex-sm-column flex-lg-row">
+					<div class="card mx-3 d-flex ">
+					  <img src="https://360visibletour.com/wp-content/uploads/2018/02/Advanced-Google-VirtualTour.gif" class="img-fluid card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 id="card_title" class="card-title text-center">MNLTour</h5>
+					    <p class="card-text text-justify">MNLTour is a virtual tour for selected tourist spots situated within the city of Manila. It utilizes 360-degree images, 2D images, voice recordings, and virtual reality technology to offer an immersive user experience of the virtual environment. The virtual tour system was developed using Unity3D.</p>
+					  </div>
+					</div>
+					<div class="card mx-3 d-flex ">
+					  <img src="./images/portfolio.jpg" class="img-fluid card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 id="card_title" class="card-title text-center">Web Portolio</h5>
+					    <p class="card-text text-justify">As a bootcamp requirement, we were task to create a responsive web portfolio using bootstrap, css and html. This web portfolio serves as our resume as a fullstack web developer.</p>
+					  </div>
+					</div>
+					<div class="card mx-3 d-flex">
+					  <img src="https://algotech.netlify.com/img/image_class/train.gif" class="card-img-top img-fluid" alt="...">
+					  <div class="card-body">
+					    <h5 id="card_title" class="card-title text-center">Image Classifier</h5>
+					    <p class="card-text text-justify">This project uses deep learning to classify an image of endemic birds based on their extinction threat level. The data used in this image classifier is based on data sets gather from endemic birds that is located in the Philippines</p>
+					</div>
 					</div>
 				</div>
 			</div>
 			<!-- Project End--> 
+			<div id="tools" class="text-center my-5">
+			<h2 class="text-light">Tools</h2>
+                <div class="d-flex flex-sm-column align-items-right">
+                    <div class="col-md-12 col-lg-12 flex-row">
+                        <img width="150" src="images/logo-mongodb.png"/>
+                        <img width="150" src="images/logo-nodejs.png"/>
+                        <img width="150" src="images/logo-expressjs.png"/>
+                        <img width="150" src="images/logo-react.png"/>
+                        <img width="150" src="images/logo-heroku.png"/>
+                    </div>
+                    <div class="col-md-12 col-lg-12 flex-row">
+                        <img width="150" src="images/logo-git.png"/>
+                        <img width="150" src="images/logo-sublime-text-3.png"/>
+                        <img width="150" src="images/logo-postman.png"/>
+                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+                    </div>
+                </div>
+			</div>
+			
 
 			<!-- Contact Me Start -->
+			
+
 			<div id="contact">
-				<h2 class="text-center ">Contact Me</h2>
-				<div class="d-flex mt-1 text-center justify-content-center">
-					<div class="d-flex">
-						<form class="min-vh-80 d-flex flex-column bg-primary">
+				<h2 class="text-center text-light">Contact Me</h2>
+				<div class="container-fluid">
+					<div id="form" class="row text-center justify-content-center">
+						<form  class="min-vh-80 d-flex flex-column my-5 col col-md-8 col-lg-6 col-xl-6">
 						  <div class="form-group">
 						    <label for="name">Name</label>
 						    <input type="text" class="form-control" id="name" placeholder="Your Name">
@@ -99,6 +135,9 @@
 						  	<button class="mb-3 bg-dark text-light btn " type="submit"> Send Email</button>
 						  </div>
 						</form>
+					</div>
+					<div>
+
 					</div>
 				</div>
 			</div>

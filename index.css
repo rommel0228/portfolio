@@ -6,12 +6,15 @@
 }
 
 .navbar {
-	background-color: #14213d;
+	background-color: #fb8500;
+	;
 }
 
 body {
-	background-color: #e5e5e5;
+	background: #16222A; 
+	background: linear-gradient(to top, #3A6073, #16222F);Safari 7+ */
 	font-family: "Roboto", monospace;
+	background-repeat: no-repeat;
 	font-weight: bold;
 }
 
@@ -19,3 +22,25 @@ p {
 	font-size: 10x;
 }
 
+.card {
+	width: 20rem;
+}
+
+#logo {
+	width: 50px;
+	mix-blend-mode: color-dodge;
+
+}
+#aboutme {
+}
+
+#link_logo {
+	width: 40px;
+	height: 40px;
+}
+
+/*#form {
+	background-color: #14213d;
+}
+
+*/
